@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu-container {
+	background-color: #5995da;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+/* ==========MENU ================*/
+.menu {
+	/* border: 1px solid #fff; */
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.login {
+	margin-left: 20px;
+}
+
+.signup {
+	margin-left: auto;
+}
+
+.header-container {
+	background-color: #d6e8fe;
+	color: #5995da;
+	display: flex;
+	justify-content: center;
+}
+
+/* ==========MENU ends ================*/
+
+/* ==========HEADER ================*/
+.header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	width: 900px;
+}
+
+.social,
+.subscribe {
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+
+.photo-grid-container {
+	display: flex;
+	justify-content: center;
+}
+
+.photo-grid {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 900px;
+}
+
+.photo-grid-item {
+	border: 1px solid #f00;
+	height: 300px;
+	width: 300px;
+}
+
+.first-item {
+	order: 1;
+}
+
+.last-item {
+	order: -1;
+}
+
+/* ==========HEADER ends ================*/
+
+/* ==========FOOTER ================*/
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-item {
+	background-color: #d6e8fe;
+	border: 1px solid #fff;
+	flex: 1;
+	height: 200px;
+}
+
+.footer-three {
+	/* flex: 2; */
+}
+
+.footer-one,
+.footer-three {
+	background-color: #5995da;
+	flex: initial;
+	width: 300px;
+}
+/* ==========FOOTER ends ================*/
